@@ -1,20 +1,13 @@
 # -*- coding: utf-8 -*-
-from setuptools import setup, find_packages
-
-with open('requirements.txt') as f:
-	install_requires = f.read().strip().split('\n')
 
 # get version from __version__ variable in ksa_custom_docs/__init__.py
-from ksa_custom_docs import __version__ as version
 
 setup(
 	name='ksa_custom_docs',
-	version=version,
-	description='Custom Doctypes for LKSA',
-	author='firsterp',
-	author_email='support@firsterp.in',
-	packages=find_packages(),
+	version='1.0.0',
+	description='Custom Doctypes for KSA',
+	author='DVNKS',
+	author_email='support@dvnks.com',
 	zip_safe=False,
 	include_package_data=True,
-	install_requires=install_requires
 )
