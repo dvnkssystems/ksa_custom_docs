@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ksa_custom_docs *.css
+recursive-include ksa_custom_docs *.csv
+recursive-include ksa_custom_docs *.html
+recursive-include ksa_custom_docs *.ico
+recursive-include ksa_custom_docs *.js
+recursive-include ksa_custom_docs *.json
+recursive-include ksa_custom_docs *.md
+recursive-include ksa_custom_docs *.png
+recursive-include ksa_custom_docs *.py
+recursive-include ksa_custom_docs *.svg
+recursive-include ksa_custom_docs *.txt
+recursive-exclude ksa_custom_docs *.pyc
